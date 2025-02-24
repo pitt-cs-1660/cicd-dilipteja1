@@ -89,4 +89,4 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: us-docker.pkg.dev/cc-spring2025/docker-artifacts-repo/fastapi-server:v2
+          tags: us-docker.pkg.dev/telegram-feed101/docker-artifacts-repo/fastapi-server:v2
