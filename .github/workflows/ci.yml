@@ -73,7 +73,7 @@ jobs:
         name: Authenticate to GCP
         with:
           project_id: 'telegram-feed101'
-          workload_identity_provider: 'projects/868585390000/locations/global/workloadIdentityPools/github/providers/docker-artifacts-repo'
+          workload_identity_provider: 'projects/868585390000/locations/global/workloadIdentityPools/github/providers/my-repo'
 
       - name: gcloud Configure Docker
         run: gcloud auth configure-docker us-docker.pkg.dev
